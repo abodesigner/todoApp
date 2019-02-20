@@ -1,0 +1,14 @@
+.head,.itemData{
+    display: flex;
+    justify-content: space-around;
+}
+
+.head{
+    border: 1px solid #333
+}
+
+.delBtn{
+    background-color: red;
+    padding: 10px;
+    color:white
+}

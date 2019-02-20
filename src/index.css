@@ -6,9 +6,85 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #46529d;
+  color: #fff
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+
+*{
+  box-sizing: border-box
+}
+
+.text-center{
+  text-align: center
+}
+
+.container{
+  width: 60%;
+  margin: 10% auto
+}
+
+.listItems{
+  background-color: #fff;
+  color: #46529d
+}
+
+.listItems p{
+  margin: 0;
+  text-align: center;
+  padding: 10px 0
+}
+
+.listItems span{
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  border:0.3px solid #ccc
+}
+
+.listItems span.title{
+  background-color: #2ebaee;
+  color: #fff
+}
+
+.listItems span.name,
+form input[type=text]{
+  width: 60%
+}
+
+.listItems span.age,
+form input[type=text]{
+  width: 30%
+}
+
+.listItems span.action,
+form input[type=text]{
+  width: 10%
+}
+
+.listItems span.icon{
+  color: #2ebaee;
+  cursor: pointer;
+}
+
+form input{
+  padding: 10px;
+  background: #ebebeb;
+  border: transparent;
+  border: 0.3px solid #ccc
+}
+
+
+form input[type=submit]{
+  padding: 10px;
+  background: #2ebaee;
+  color: #fff;
+  border: 0.3px solid #2ebaee;
+  cursor: pointer;
 }
